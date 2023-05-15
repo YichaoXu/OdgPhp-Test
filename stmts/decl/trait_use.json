@@ -1,0 +1,260 @@
+[
+    {
+        "nodeType": "Stmt_Class",
+        "attributes": {
+            "startLine": 3,
+            "startFilePos": 9,
+            "endLine": 12,
+            "endFilePos": 162
+        },
+        "name": {
+            "nodeType": "Identifier",
+            "attributes": {
+                "startLine": 3,
+                "startFilePos": 15,
+                "endLine": 3,
+                "endFilePos": 15
+            },
+            "name": "A"
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_TraitUse",
+                "attributes": {
+                    "startLine": 5,
+                    "startFilePos": 25,
+                    "endLine": 11,
+                    "endFilePos": 159
+                },
+                "traits": [
+                    {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 5,
+                            "startFilePos": 29,
+                            "endLine": 5,
+                            "endFilePos": 29
+                        },
+                        "parts": [
+                            "B"
+                        ]
+                    },
+                    {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 5,
+                            "startFilePos": 32,
+                            "endLine": 5,
+                            "endFilePos": 32
+                        },
+                        "parts": [
+                            "C"
+                        ]
+                    },
+                    {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 5,
+                            "startFilePos": 35,
+                            "endLine": 5,
+                            "endFilePos": 35
+                        },
+                        "parts": [
+                            "D"
+                        ]
+                    }
+                ],
+                "adaptations": [
+                    {
+                        "nodeType": "Stmt_TraitUseAdaptation_Alias",
+                        "attributes": {
+                            "startLine": 6,
+                            "startFilePos": 48,
+                            "endLine": 6,
+                            "endFilePos": 54
+                        },
+                        "trait": null,
+                        "method": {
+                            "nodeType": "Identifier",
+                            "attributes": {
+                                "startLine": 6,
+                                "startFilePos": 48,
+                                "endLine": 6,
+                                "endFilePos": 48
+                            },
+                            "name": "f"
+                        },
+                        "newModifier": null,
+                        "newName": {
+                            "nodeType": "Identifier",
+                            "attributes": {
+                                "startLine": 6,
+                                "startFilePos": 53,
+                                "endLine": 6,
+                                "endFilePos": 53
+                            },
+                            "name": "g"
+                        }
+                    },
+                    {
+                        "nodeType": "Stmt_TraitUseAdaptation_Alias",
+                        "attributes": {
+                            "startLine": 7,
+                            "startFilePos": 65,
+                            "endLine": 7,
+                            "endFilePos": 77
+                        },
+                        "trait": null,
+                        "method": {
+                            "nodeType": "Identifier",
+                            "attributes": {
+                                "startLine": 7,
+                                "startFilePos": 65,
+                                "endLine": 7,
+                                "endFilePos": 65
+                            },
+                            "name": "f"
+                        },
+                        "newModifier": 4,
+                        "newName": null
+                    },
+                    {
+                        "nodeType": "Stmt_TraitUseAdaptation_Alias",
+                        "attributes": {
+                            "startLine": 8,
+                            "startFilePos": 88,
+                            "endLine": 8,
+                            "endFilePos": 102
+                        },
+                        "trait": null,
+                        "method": {
+                            "nodeType": "Identifier",
+                            "attributes": {
+                                "startLine": 8,
+                                "startFilePos": 88,
+                                "endLine": 8,
+                                "endFilePos": 88
+                            },
+                            "name": "f"
+                        },
+                        "newModifier": 4,
+                        "newName": {
+                            "nodeType": "Identifier",
+                            "attributes": {
+                                "startLine": 8,
+                                "startFilePos": 101,
+                                "endLine": 8,
+                                "endFilePos": 101
+                            },
+                            "name": "g"
+                        }
+                    },
+                    {
+                        "nodeType": "Stmt_TraitUseAdaptation_Alias",
+                        "attributes": {
+                            "startLine": 9,
+                            "startFilePos": 113,
+                            "endLine": 9,
+                            "endFilePos": 122
+                        },
+                        "trait": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 9,
+                                "startFilePos": 113,
+                                "endLine": 9,
+                                "endFilePos": 113
+                            },
+                            "parts": [
+                                "B"
+                            ]
+                        },
+                        "method": {
+                            "nodeType": "Identifier",
+                            "attributes": {
+                                "startLine": 9,
+                                "startFilePos": 116,
+                                "endLine": 9,
+                                "endFilePos": 116
+                            },
+                            "name": "f"
+                        },
+                        "newModifier": null,
+                        "newName": {
+                            "nodeType": "Identifier",
+                            "attributes": {
+                                "startLine": 9,
+                                "startFilePos": 121,
+                                "endLine": 9,
+                                "endFilePos": 121
+                            },
+                            "name": "g"
+                        }
+                    },
+                    {
+                        "nodeType": "Stmt_TraitUseAdaptation_Precedence",
+                        "attributes": {
+                            "startLine": 10,
+                            "startFilePos": 133,
+                            "endLine": 10,
+                            "endFilePos": 152
+                        },
+                        "trait": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 10,
+                                "startFilePos": 133,
+                                "endLine": 10,
+                                "endFilePos": 133
+                            },
+                            "parts": [
+                                "B"
+                            ]
+                        },
+                        "method": {
+                            "nodeType": "Identifier",
+                            "attributes": {
+                                "startLine": 10,
+                                "startFilePos": 136,
+                                "endLine": 10,
+                                "endFilePos": 136
+                            },
+                            "name": "f"
+                        },
+                        "insteadof": [
+                            {
+                                "nodeType": "Name",
+                                "attributes": {
+                                    "startLine": 10,
+                                    "startFilePos": 148,
+                                    "endLine": 10,
+                                    "endFilePos": 148
+                                },
+                                "parts": [
+                                    "C"
+                                ]
+                            },
+                            {
+                                "nodeType": "Name",
+                                "attributes": {
+                                    "startLine": 10,
+                                    "startFilePos": 151,
+                                    "endLine": 10,
+                                    "endFilePos": 151
+                                },
+                                "parts": [
+                                    "D"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "attrGroups": [],
+        "namespacedName": null,
+        "flags": 0,
+        "extends": null,
+        "implements": []
+    }
+]
